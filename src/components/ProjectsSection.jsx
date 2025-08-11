@@ -9,7 +9,7 @@ const projects =  [
         image: "/images/project1.png",
         tags: ["React", "TailwindCSS", "three.js"],
         demoURL: "https://abroqi.dev",
-        githubURL: "https://github.com/elabroqi/Portfolio.git",
+        githubURL: "https://github.com/elabroqi/personal-portfolio.git",
     },
     {
         id: 2,
@@ -79,7 +79,7 @@ export const ProjectsSection = () => {
                                     <ExternalLink size={20}/>
                                 </a>
                                 <a  href={project.githubURL} 
-                                    target="https://github.com/elabroqi/Portfolio.git"
+                                    target="https://github.com/elabroqi/personal-portfolio.git"
                                     className="text-foreground/80 hover:text-primary transition-colors duration-300"
                                     > 
                                     <Github size={20}/>
