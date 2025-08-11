@@ -1,5 +1,5 @@
 # About
-- This is my personal developer portfolio built with React and Vite to showcase my work, skills, and background in computer science, data, and software development.
+- This is my personal developer portfolio built with React and Vite to showcase my work.
 - The design focuses on a clean user interface.
 
 # Features
