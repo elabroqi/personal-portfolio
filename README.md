@@ -1,12 +1,42 @@
-# React + Vite
+# About
+- This is my personal developer portfolio built with React and Vite to showcase my work.
+- The design focuses on a clean user interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+- Responsive layout for all screen sizes, (Mobile & Desktop).
+- Built with Vite for fast development and builds.
 
-Currently, two official plugins are available:
+# Tech Stack
+Frontend:
+- React.js
+- Vite
+- Tailwind CSS
+- Three.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# Setup & Installation
+Clone the repository:
+```bash
+git clone https://github.com/elabroqi/personal-portfolio.git
+```
+Navigate to the project folder:
+```bash
+cd personal-portfolio
+```
+Install dependencies:
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Start the development server:
+```bash
+npm run dev
+```
+
+Build for production:
+```bash
+npm run build
+```
+
+# Portfolio Link:
+https://abroqi.dev
