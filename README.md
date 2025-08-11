@@ -15,25 +15,25 @@ Frontend:
 
 
 # Setup & Installation
-- Clone the repository:
+Clone the repository:
 ```bash
 git clone https://github.com/elabroqi/personal-portfolio.git
 ```
-- Navigate to the project folder:
+Navigate to the project folder:
 ```bash
 cd personal-portfolio
 ```
-- Install dependencies:
+Install dependencies:
 ```bash
 npm install
 ```
 
-- Start the development server:
+Start the development server:
 ```bash
 npm run dev
 ```
 
-- Build for production:
+Build for production:
 ```bash
 npm run build
 ```
