@@ -1,7 +1,6 @@
-Personal Portfolio — Aurela Broqi
 About
-This is my personal developer portfolio built with React and Vite to showcase my work, skills, and background in computer science, data, and software development.
-The design focuses on a clean user interface.
+- This is my personal developer portfolio built with React and Vite to showcase my work, skills, and background in computer science, data, and software development.
+- The design focuses on a clean user interface.
 
 Features
 - Responsive layout for all screen sizes, (Mobile & Desktop).
