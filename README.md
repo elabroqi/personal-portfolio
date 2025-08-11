@@ -2,11 +2,11 @@
 - This is my personal developer portfolio built with React and Vite to showcase my work, skills, and background in computer science, data, and software development.
 - The design focuses on a clean user interface.
 
-Features
+# Features
 - Responsive layout for all screen sizes, (Mobile & Desktop).
 - Built with Vite for fast development and builds.
 
-Tech Stack
+# Tech Stack
 Frontend:
 - React.js
 - Vite
@@ -14,7 +14,7 @@ Frontend:
 - Three.js
 
 
-Setup & Installation
+# Setup & Installation
 - Clone the repository:
   git clone https://github.com/elabroqi/personal-portfolio.git
 
@@ -31,5 +31,5 @@ Setup & Installation
   npm run build
 
 
-Portfolio Link:
+# Portfolio Link:
 https://abroqi.dev
