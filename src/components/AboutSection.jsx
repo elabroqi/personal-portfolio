@@ -106,7 +106,7 @@ export const AboutSection = () => {
 
                                     {/* bullets */}
                                     <ul className="list-disc list-inside text-md mt-1">
-                                        Built a Google Earth-based speech-to-text application in a team of two using C# and Python, enabling dynamic scene  rendering in Unity based on user voice commands.  Upgraded an existing HaptX project from Unreal Engine 4.27 to 5.4 and integrated SenseGlove 2.5, enhancing system responsiveness and realism for the ORTECC emergency training simulations used by interns for continued  development. 
+                                        Deployed and containerized OpenWebUI using Docker, configured network access for centralized usage, integrated a Unity-based VR application into the VIROO® platform, designed spline-based navigation paths, configured VR controllers for interaction with scene objects, and implemented version control best practices with Git/GitHub.
                                     </ul>
                                     <div className="mt-4 flex items-center gap-2">
                                         <span  title="Unity" className="inline-grid place-items-center w-8 h-8 rounded-full bg-primary/10 ring-1 ring-primary/20 text-primary">
