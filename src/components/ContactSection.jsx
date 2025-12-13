@@ -8,7 +8,7 @@ export const ContactSection = () => {
     return <section className="py-24 px-4 relative bg-secondary/30"
     >
         <div className="container mx-auto max-wxl">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> Contact Information 
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> Contact Information
             </h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -20,7 +20,7 @@ export const ContactSection = () => {
                     <div className="space-y-6 justify-center">
                         <div className="flex items-start space-x-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <CiMail className="h-6 w-6 text-primary" /> 
+                                <CiMail className="h-6 w-6 text-primary" />
                                 {" "}
                             </div>
                             <div>
@@ -29,14 +29,14 @@ export const ContactSection = () => {
                                 <a
                                     href="mailto:elabroqi@gmail.com"
                                     className="text-muted-foreground hover:text-primary tranistion-colors"
-                                    >
-                                        contact@abroqi.dev
-                                    </a>
+                                >
+                                    elabroqi@gmail.com
+                                </a>
                             </div>
                         </div>
                         <div className="flex items-start space-x-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <CiPhone className="h-6 w-6 text-primary" /> 
+                                <CiPhone className="h-6 w-6 text-primary" />
                                 {" "}
                             </div>
                             <div>
@@ -45,14 +45,14 @@ export const ContactSection = () => {
                                 <a
                                     href="tel:+13216664744"
                                     className="text-muted-foreground hover:text-primary tranistion-colors"
-                                    >
+                                >
                                     +1 (321) 666-4744
                                 </a>
                             </div>
                         </div>
                         <div className="flex items-start space-x-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <CiMapPin className="h-6 w-6 text-primary" /> 
+                                <CiMapPin className="h-6 w-6 text-primary" />
                                 {" "}
                             </div>
                             <div>
@@ -60,7 +60,7 @@ export const ContactSection = () => {
 
                                 <a
                                     className="text-muted-foreground hover:text-primary tranistion-colors"
-                                    >
+                                >
                                     Orlando, FL, United States
                                 </a>
                             </div>
@@ -71,14 +71,14 @@ export const ContactSection = () => {
                         <h4> Connect With Me</h4>
                         <div className="flex space-x-4 justify-center">
                             <a href="www.linkedin.com/in/aurela-broqi" target="_blank">
-                                <FaLinkedin size={40}/>
+                                <FaLinkedin size={40} />
                             </a>
                         </div>
                     </div>
                 </div>
 
 
-{/*
+                {/*
 <div className="bg-card p-8 rounded-lg shadow-xs">
                     <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
 
