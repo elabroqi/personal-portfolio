@@ -10,29 +10,29 @@ import { ContactSection } from '../components/ContactSection';
 
 export const About = () => {
     return (
-<div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-    
-    {/* Theme Toggle dark to light mode*/}
-    <ThemeToggle />
+        <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
 
-    {/* Background effects */}
+            {/* Theme Toggle dark to light mode*/}
+            <ThemeToggle />
 
-    <StarBackground />
+            {/* Background effects */}
 
-    {/* Nav bar (diff parts of the portfolio)*/}
-    <Navbar />
+            <StarBackground />
 
-    {/* main content */}
-    <main>
-        <HeroSection />
-    </main>
-        <AboutSection />
-        <SkillsSection />
-        <ProjectsSection />
-        <ContactSection />
+            {/* Nav bar (diff parts of the portfolio)*/}
+            <Navbar />
 
-    {/* footer */}
+            {/* main content */}
+            <main>
+                <HeroSection />
+            </main>
+            <AboutSection />
+            <SkillsSection />
+            <ProjectsSection />
+            <ContactSection />
 
-    </div>
+            {/* footer */}
+
+        </div>
     )
 };

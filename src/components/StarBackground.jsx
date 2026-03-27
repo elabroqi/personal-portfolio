@@ -1,4 +1,4 @@
-import { useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
 //id , size, x, y , opacity, animationDuration 
 //id , size, x, y , delay, animationDuration 
@@ -8,29 +8,29 @@ export const StarBackground = () => {
     const [stars, setStars] = useState([]);
     const [meteors, setMeteors] = useState([]);
 
-    useEffect(() =>{
+    useEffect(() => {
         generateStars()
         generateMeteros()
 
-    const handleResize = () => {
-        generateStars();
-    };
+        const handleResize = () => {
+            generateStars();
+        };
 
-    window.addEventListener('resize', handleResize)
+        window.addEventListener('resize', handleResize)
 
-    return () => window.removeEventListener("resize", handleResize )
+        return () => window.removeEventListener("resize", handleResize)
     }, []);
 
     const generateStars = () => {
         const numberOfStars = Math.floor(
-            (window.innerWidth * window.innerHeight) /10000
+            (window.innerWidth * window.innerHeight) / 10000
         );
 
         const newStars = []
 
-        for (let i = 0; i < numberOfStars; i++){
+        for (let i = 0; i < numberOfStars; i++) {
             newStars.push({ //pushing to the new stars array
-                id:i,
+                id: i,
                 size: Math.random() * 3 + 1, //size btwn 1 -4 pixels 
                 x: Math.random() * 100,
                 y: Math.random() * 100,
@@ -46,9 +46,9 @@ export const StarBackground = () => {
         const numberOfMeteors = 10;
         const newMeteors = [];
 
-        for (let i = 0; i < numberOfMeteors; i++){
+        for (let i = 0; i < numberOfMeteors; i++) {
             newMeteors.push({ //pushing to the new stars array
-                id:i,
+                id: i,
                 size: Math.random() * 2 + 1, //size btwn 1 -4 pixels 
                 x: Math.random() * 100,
                 y: Math.random() * 100,
@@ -63,32 +63,32 @@ export const StarBackground = () => {
     return (
         <div className="fixed inset-0 overflow-hidden pointer-events-none z-10">
             {stars.map((star) => (
-                <div 
-                    key={star.id} 
-                    className="star animate-pulse-subtle" 
+                <div
+                    key={star.id}
+                    className="star animate-pulse-subtle"
                     style={{
-                    width: star.size + "px",
-                    height: star.size + "px" ,
-                    left: star.x + "%" ,
-                    top: star.y + "%",
-                    opacity: star.opacity,
-                    animationDuration: star.animationDuration + "s" ,
-                }} 
+                        width: star.size + "px",
+                        height: star.size + "px",
+                        left: star.x + "%",
+                        top: star.y + "%",
+                        opacity: star.opacity,
+                        animationDuration: star.animationDuration + "s",
+                    }}
                 />
             ))}
 
             {meteors.map((meteor) => (
-                <div 
-                    key={meteor.id} 
-                    className="meteor animate-meteor" 
+                <div
+                    key={meteor.id}
+                    className="meteor animate-meteor"
                     style={{
-                    width: meteor.size + "px",
-                    height: meteor.size + "px" ,
-                    left: meteor.x + "%" ,
-                    top: meteor.y + "%",
-                    delay: meteor.delay,
-                    animationDuration: meteor.animationDuration + "s" ,
-                }} 
+                        width: meteor.size + "px",
+                        height: meteor.size + "px",
+                        left: meteor.x + "%",
+                        top: meteor.y + "%",
+                        delay: meteor.delay,
+                        animationDuration: meteor.animationDuration + "s",
+                    }}
                 />
             ))}
         </div>

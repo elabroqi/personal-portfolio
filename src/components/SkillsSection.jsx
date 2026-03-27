@@ -22,25 +22,25 @@ const LIBRARIES = [
 ];
 
 const RUNTIMES_ENGINES = [
-  { name: "NodeJS", Icon: FaNodeJs }, 
-  { name: "Unity",  Icon: SiUnity },  
-  { name: "Unreal",  Icon: SiUnrealengine },
+  { name: "NodeJS", Icon: FaNodeJs },
+  { name: "Unity", Icon: SiUnity },
+  { name: "Unreal", Icon: SiUnrealengine },
 ];
 
 const CLOUD_TOOLING = [
-  { name: "AWS",      Icon: FaAws },      
-  { name: "Anaconda", Icon: SiAnaconda }, 
+  { name: "AWS", Icon: FaAws },
+  { name: "Anaconda", Icon: SiAnaconda },
 ];
 
 const LANGUAGES = [
-  { name: "C",          Icon: SiC },
-  { name: "C#",         Icon: TbBrandCSharp },
-  { name: "C++",        Icon: SiCplusplus },
-  { name: "CSS",        Icon: SiCss3 },
-  { name: "HTML",       Icon: SiHtml5 },
-  { name: "Java",       Icon: FaJava },
+  { name: "C", Icon: SiC },
+  { name: "C#", Icon: TbBrandCSharp },
+  { name: "C++", Icon: SiCplusplus },
+  { name: "CSS", Icon: SiCss3 },
+  { name: "HTML", Icon: SiHtml5 },
+  { name: "Java", Icon: FaJava },
   { name: "JavaScript", Icon: SiJavascript },
-  { name: "Python",     Icon: SiPython },
+  { name: "Python", Icon: SiPython },
 ];
 
 function SkillPill({ name, Icon }) {

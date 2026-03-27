@@ -32,8 +32,8 @@ function FibonacciModel() {
 
   return (
     <Center>
-      <primitive 
-        object={scene} 
+      <primitive
+        object={scene}
         scale={[2, 2, 2]}
       />
     </Center>
@@ -42,7 +42,7 @@ function FibonacciModel() {
 
 export default function FibonacciCanvas() {
   return (
-    <Canvas 
+    <Canvas
       className="w-full h-full"
       gl={{ alpha: true, antialias: true }}
       camera={{ fov: 35, position: [0, 0, 5] }}
@@ -51,10 +51,10 @@ export default function FibonacciCanvas() {
       <Suspense fallback={<CanvasLoader />}>
         <ambientLight intensity={1.2} />
         <directionalLight position={[0, 0, 0]} intensity={2} />
-        <OrbitControls 
-          autoRotate 
+        <OrbitControls
+          autoRotate
           autoRotateSpeed={.8}
-          enableZoom={false} 
+          enableZoom={false}
           enablePan={true}
           maxPolarAngle={Math.PI}
           minPolarAngle={-10}

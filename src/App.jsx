@@ -8,13 +8,13 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
-    <Routes>
-      <Route index element={<About />}/> 
-      <Route index element={<Career />}/>
-      <Route index element={<Projects />}/>
-    </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<About />} />
+          <Route path="career" element={<Career />} />
+          <Route path="projects" element={<Projects />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };
