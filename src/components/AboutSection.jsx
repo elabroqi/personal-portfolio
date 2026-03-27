@@ -250,7 +250,7 @@ export const AboutSection = () => {
                                     </p>
 
                                     <p className="mt-4 text-sm font-semibold text-muted-foreground">
-                                        August 2022 – Present
+                                        August 2022 – May 2026
                                     </p>
                                 </div>
                             </div>

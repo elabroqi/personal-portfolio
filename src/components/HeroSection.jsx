@@ -3,6 +3,8 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment } from '@react-three/drei';
 import { Suspense } from 'react';
 import FibonacciCanvas from "./canvas/FibonacciCanvas";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { SiDevpost } from "react-icons/si";
 
 
 
@@ -22,21 +24,57 @@ export const HeroSection = () => {
                 <div className="space-y-6">
                     <h1 className="text-4xl md:text-6xl font-normal tracking-tight font-sans">
                         <span className="opacity-0 animate-fade-in">
-                            Hello,</span>
+                            Aurela</span>
                         <span className="text-primary opacity-0 animate-fade-in-delay-1">
                             {" "}
-                            Welcome</span>
+                            Broqi</span>
                         <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
                             {" "}
                         </span>
                     </h1>
 
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        I develop programs, study data & computer science
+                        Computer Science May 2026
                     </p>
 
+                    <div className="flex justify-center gap-6 mt-4 opacity-0 animate-fade-in-delay-4">
+                        <a
+                            href="https://github.com/elabroqi"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-foreground hover:text-primary transition hover:scale-110"
+                        >
+                            <FaGithub size={28} />
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/YOUR-LINKEDIN"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-foreground hover:text-primary transition hover:scale-110"
+                        >
+                            <FaLinkedin size={28} />
+                        </a>
+
+                        <a
+                            href="https://devpost.com/YOUR-DEVPOST"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-foreground hover:text-primary transition hover:scale-110"
+                        >
+                            <SiDevpost size={28} />
+                        </a>
+
+                        <a
+                            href="mailto:your@email.com"
+                            className="text-foreground hover:text-primary transition hover:scale-110"
+                        >
+                            <FaEnvelope size={28} />
+                        </a>
+                    </div>
+
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                        <a herf="#projects" className="cosmic-button">
+                        <a href="#projects" className="cosmic-button">
                             View My Work
                         </a>
                     </div>
