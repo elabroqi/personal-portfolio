@@ -37,7 +37,7 @@ const LANGUAGES = [
   { name: "C", Icon: SiC },
   { name: "C#", Icon: TbBrandCSharp },
   { name: "C++", Icon: SiCplusplus },
-  { name: "CSS", Icon: () => <FaCss3Alt /> },
+  // { name: "CSS", Icon: () => <FaCss3Alt /> },
   { name: "HTML", Icon: SiHtml5 },
   { name: "Java", Icon: FaJava },
   { name: "JavaScript", Icon: SiJavascript },
