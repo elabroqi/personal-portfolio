@@ -1,6 +1,6 @@
 import { FaAws, FaNodeJs } from "react-icons/fa6";
 import { TbBrandCSharp } from "react-icons/tb";
-import { FaJava, FaCss3Alt } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
 
 import {
   // Frameworks/Libraries
